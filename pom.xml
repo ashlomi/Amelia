@@ -6,7 +6,7 @@
     <groupId>Amelia</groupId>
     <artifactId>Customer-Service</artifactId>
     <version>1.0</version>
-    <packaging>zip</packaging>
+    <packaging>war</packaging>
 
     <name>Amelia-CS-PRJ.zip</name>
     <url>https://github.com/ashlomi/Amelia</url>
