@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>Amelia</groupId>
+    <artifactId>Customer-Service</artifactId>
+    <version>1.0</version>
+    <packaging>zip</packaging>
+
+    <name>Amelia-CS-PRJ.zip</name>
+    <url>https://github.com/ashlomi/Amelia</url>
+
+    <properties>
+        
+    </properties>
+
+    <!-- We need to use the PrimeFaces repository -->
+    <repositories>
+        
+    </repositories>
+
+    <dependencyManagement>
+        <!-- Arquillian BOM used to reduce collision between testing dependecies. -->
+        <dependencies>
+            <dependency>
+                
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- Java EE API -->
+        <dependency>
+           
+        </dependency>
+
+        <!-- GlassFish specific dependencies, could go away in Java EE 8 -->
+        <dependency>
+            
+        </dependency>
+        <dependency>
+            
+        </dependency>
+
+        <!-- The third-party dependencies this application has -->
+        <dependency>
+           
+        </dependency>
+
+        <!-- PrimeFaces dependencies -->
+        <dependency>
+            
+        </dependency>
+        <dependency>
+            
+        </dependency>
+
+        <!-- Test dependendencies -->
+        <dependency>
+           
+        </dependency>
+        <dependency>
+           
+        </dependency>
+        <!-- Resolvers are needed in the Arquillian tests -->
+        <dependency>
+            
+        </dependency>
+    </dependencies>
+
+    <build>
+       
+    </build>
+
+    <profiles>
+        <!-- GlassFish specific version of build -->
+      
+    </profiles>
+</project>
